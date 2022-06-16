@@ -6,32 +6,32 @@ homepage: https://drift.simonbinder.eu/
 issue_tracker: https://github.com/simolus3/drift/issues
 
 environment:
-  sdk: '>=2.14.0 <3.0.0'
+  sdk: ">=2.14.0 <3.0.0"
 
 dependencies:
   charcode: ^1.2.0
   collection: ^1.14.0
-  recase: '>=2.0.1 <5.0.0'
+  recase: ">=2.0.1 <5.0.0"
   meta: ^1.1.0
   path: ^1.6.0
   json_annotation: ^4.1.0
-  stream_transform: '>=0.1.0 <3.0.0'
+  stream_transform: ">=0.1.0 <3.0.0"
 
   # CLI
   args: ">=1.5.0 <3.0.0"
-  logging: '>=0.11.0 <2.0.0'
-  cli_util: '>=0.2.0 <0.4.0'
+  logging: ">=0.11.0 <2.0.0"
+  cli_util: ">=0.2.0 <0.4.0"
   yaml: ^3.1.0
   io: ^1.0.3
 
   # Drift-specific analysis and apis
-  drift: '>=1.7.0 <1.8.0'
-  sqlite3: '>=0.1.6 <2.0.0'
+  drift: ">=1.7.0 <1.8.0"
+  sqlite3: ">=0.1.6 <2.0.0"
   sqlparser: ^0.22.0
 
   # Dart analysis
-  analyzer: "^4.1.0"
-  analyzer_plugin: '^0.10.0'
+  analyzer: "3.4.1"
+  analyzer_plugin: "0.9.0"
   source_span: ^1.5.5
   package_config: ^2.0.0
   pub_semver: ^2.0.0
@@ -39,9 +39,9 @@ dependencies:
   # Build system
   build: ^2.0.0
   build_resolvers: ^2.0.0
-  build_config: '>=0.3.1 <2.0.0'
-  dart_style: '>=1.3.3 <3.0.0'
-  source_gen: '>=0.9.4 <2.0.0'
+  build_config: ">=0.3.1 <2.0.0"
+  dart_style: ">=1.3.3 <3.0.0"
+  source_gen: ">=0.9.4 <2.0.0"
 
 dev_dependencies:
   checked_yaml: ^2.0.1
